@@ -124,7 +124,7 @@ tap.test('nockBack returns a promise when nockbackFn is not specified', function
 
 tap.test('nockBack wild tests', function (nw) {
 
-  //  Manually disable net connectivity to confirm that dryrun enables it.
+  //  Manually disable net connectivity to confirm that wild mode enables it.
   nock.disableNetConnect();
 
   nockBack.fixtures = __dirname + '/fixtures';
